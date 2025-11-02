@@ -1,0 +1,15 @@
+{
+  "name": "radio-pulso-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Node.js para retransmitir Radio Pulso Digital Urbano™ sin bloqueos CORS",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
